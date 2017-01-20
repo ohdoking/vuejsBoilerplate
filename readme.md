@@ -1,4 +1,4 @@
-#vueJs BoilerPlate [![Release]()](https://github.com/ohdoking/vuejsBoilerplate/releases/latest)
+#vueJs BoilerPlate 
 
 ## Description
 This project is vueJs Sample BoilerPlate Project
