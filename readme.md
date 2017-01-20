@@ -1,4 +1,4 @@
-#vueJs BoilerPlate 
+#vueJs BoilerPlate [![Release]()](https://github.com/ohdoking/vuejsBoilerplate/releases/latest)
 
 ## Description
 This project is vueJs Sample BoilerPlate Project
@@ -30,3 +30,7 @@ Official router for Vue.js 2
 #### vue-loader
 Vue.js component loader for Webpack
 ![vue-loader](http://blog.evanyou.me/images/vue-component.png)
+
+
+## Reference
+	- https://pagekit.com/docs/developer/vuejs-and-webpack
