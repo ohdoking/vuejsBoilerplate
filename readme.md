@@ -9,6 +9,18 @@ This project is vueJs Sample BoilerPlate Project
 
 ### How the project is run
 
+#### build
+```
+npm install
+npm run build
+```
+
+#### dev
+```
+npm install
+npm run dev
+```
+
 ## Library
 
 #### webpack
