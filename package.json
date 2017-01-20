@@ -1,0 +1,25 @@
+{
+  "name": "vuejsboilerplate",
+  "version": "1.0.0",
+  "description": "this project is vuejs boilerplate for beginner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vuejs",
+    "boilerplate"
+  ],
+  "author": "ohdoking",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.3.0",
+    "vue": "^2.1.10",
+    "vue-loader": "^10.0.2",
+    "vue-router": "^2.1.3",
+    "vue-template-compiler": "^2.1.10",
+    "vuex": "^2.1.1",
+    "webpack": "^1.14.0"
+  }
+}
