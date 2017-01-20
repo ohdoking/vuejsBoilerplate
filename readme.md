@@ -1,5 +1,4 @@
 #vueJs BoilerPlate 
-[![Release](https://img.shields.io/github/release/docker/docker.svg)](https://github.com/ohdoking/vuejsBoilerplate/releases/latest)
 
 ## Description
 This project is vueJs Sample BoilerPlate Project
