@@ -1,14 +1,22 @@
+var path = require('path');
+
+const PATHS = {
+    vue: path.join (__dirname, '../node_modules/vue/dist/vue.common.js')
+};
+
+console.log(PATHS.vue)
+
 module.exports = [
     {
         entry: {
-            "index"  : "./src/index.js",
+            "main"  : "./src/main.js",
         },
         output: {
             filename: "./app/bundle.[name].js"
         },
         resolve: {
 		  alias: {
-		    'vue$': '../node_modules/vue/dist/vue.common.js'
+		    'vue$': PATHS.vue
 		  }
 		},
         module: {

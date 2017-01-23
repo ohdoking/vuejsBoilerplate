@@ -6,11 +6,17 @@
   "scripts": {
     "build": "webpack --progress --hide-modules --config config/webpack.prod.config.js",
     "dev": "webpack-dev-server --inline --hot --config config/webpack.dev.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start config/karma.conf.js"
   },
   "keywords": [
     "vuejs",
-    "boilerplate"
+    "boilerplate",
+    "babel",
+    "test",
+    "karma",
+    "jasmine",
+    "eslint",
+    "sass"
   ],
   "author": "ohdoking",
   "license": "ISC",
@@ -24,7 +30,15 @@
     "css-loader": "^0.26.1",
     "eslint": "^3.13.1",
     "eslint-loader": "^1.6.1",
+    "function-bind": "^1.1.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-spec-reporter": "0.0.26",
+    "karma-webpack": "^2.0.1",
     "node-sass": "^4.3.0",
+    "phantomjs": "^2.1.7",
     "sass-loader": "^4.1.1",
     "vue": "^2.1.10",
     "vue-loader": "^10.0.2",

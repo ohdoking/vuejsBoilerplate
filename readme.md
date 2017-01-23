@@ -21,6 +21,12 @@ npm install
 npm run dev
 ```
 
+#### test
+```
+npm install
+npm run test
+```
+
 ## Library
 
 #### webpack
@@ -43,6 +49,20 @@ Official router for Vue.js 2
 Vue.js component loader for Webpack
 ![vue-loader](http://blog.evanyou.me/images/vue-component.png)
 
+#### babel
+Babel puts a soft cushion between you all the cool new file formats being developed for node.js such as CoffeeScript, SASS, and Jade.
+
+#### karma
+Spectacular Test Runner for JavaScript.
+
+#### jasmine
+Official packaging of Jasmine's core files for use by Node.js projects.
+
+#### phantomjs
+Headless WebKit with JS API
+
+#### eslint
+An AST(Abstract Syntax Tree)-based pattern checker for JavaScript.
 
 ## Reference
 	- https://pagekit.com/docs/developer/vuejs-and-webpack
